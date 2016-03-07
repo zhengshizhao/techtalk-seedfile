@@ -1,0 +1,15 @@
+{
+  "name": "seedfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "mongoose": "^4.4.6"
+  }
+}
