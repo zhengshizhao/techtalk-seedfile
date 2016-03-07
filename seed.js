@@ -24,7 +24,7 @@ var data = {
     name: "coo",
     age: 20,
     gender: 'm',
-    login login: Date.now()
+    login: Date.now()
     },
     {
     email: "vfhhv@fake.com",
