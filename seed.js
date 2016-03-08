@@ -51,8 +51,6 @@ var data = {
 
 mongoose.connection.on('open', function() {
   mongoose.connection.db.dropDatabase(function() {
-
-    console.log("Dropped old data, now inserting data");
     Promise.map(Object.keys(data), function(modelName) {
       return Promise.map(data[modelName], function(item) {
         return models[modelName].create(item);
