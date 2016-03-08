@@ -16,13 +16,13 @@ var data = {
     login: Date.now()},
     {email: "ujcinuhuffr@fake.com",
     name: "Mary",
-    age: 21,
+    age: 35,
     gender: 'f',
     login: Date.now()
     },{
     email: "igrygryg@fake.com",
     name: "coo",
-    age: 20,
+    age: 22,
     gender: 'm',
     login: Date.now()
     },
